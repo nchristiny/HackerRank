@@ -12,6 +12,7 @@ b2 = b2.to_i
 alice = 0
 bob = 0
 
+# parenthesis added for readability
 a0 > b0 ? alice += 1 : (a0 < b0 ? bob += 1 : 0)
 a1 > b1 ? alice += 1 : (a1 < b1 ? bob += 1 : 0)
 a2 > b2 ? alice += 1 : (a2 < b2 ? bob += 1 : 0)
