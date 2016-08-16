@@ -12,16 +12,8 @@ b2 = b2.to_i
 alice = 0
 bob = 0
 
-unless a0 == b0
-  a0 > b0 ? alice += 1 : bob += 1
-end
-
-unless a1 == b1
-  a1 > b1 ? alice += 1 : bob += 1
-end
-
-unless a2 == b2
-  a2 > b2 ? alice += 1 : bob += 1
-end
+a0 > b0 ? alice += 1 : (a0 < b0 ? bob += 1 : 0)
+a1 > b1 ? alice += 1 : (a1 < b1 ? bob += 1 : 0)
+a2 > b2 ? alice += 1 : (a2 < b2 ? bob += 1 : 0)
 
 puts "#{alice} #{bob}"
