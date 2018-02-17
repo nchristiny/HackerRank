@@ -40,7 +40,7 @@ public class Solution {
 			}
 		}
 
-		int max = 0;
+		int max = Integer.MIN_VALUE;
 		int sum = 0;
 		for(int i = 0; i <= 3; i++) {
 			for(int j = 0; j <=  3; j++) {
