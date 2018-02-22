@@ -1,5 +1,5 @@
 /** Output Format
- * Print all  integers in  in reverse order as a single line of space-separated integers.
+ * Print all n integers in array in reverse order as a single line of space-separated integers.
  *
  * Sample Input
  * 4
